@@ -108,3 +108,34 @@ void read(Car& car) {
 
 }
 ```
+## ПЕРЕЧИСЛЕНИЯ (ENUM CLASS)
+***Enum class*** - _это тип данных, который позволяет создать набор именованных констант_  
+После ключевых слов `enum class` идет название перечисления, а затем в фигурных скобках перечисляются через запятую константы перечисления.
+
+Перечисления удобны, когда необходимо __хранить ограниченный набор состояний__ и в зависимости от текущего состояния выполнять некоторые действия.
+Пример использования в классе `Car`:
+```cpp
+class Car {
+public:
+    enum class State {
+        STOPPED,    
+        MOVING,     
+        BROKEN      
+    };
+
+    string brand;
+    string color;
+    int max_speed;
+    int number;
+    State state;  // используем enum class как тип поля
+};
+
+int main() {
+    Car car;
+    car.state = Car::State::MOVING;  
+    
+    if (car.state == Car::State::STOPPED) {
+        cout << "Car is stopped";
+    }
+}
+```
