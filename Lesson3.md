@@ -161,9 +161,3 @@ int main() {
     }
 }
 ```
-    
-    if (car.state == Car::State::STOPPED) {
-        cout << "Car is stopped";
-    }
-}
-```
