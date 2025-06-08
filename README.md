@@ -16,6 +16,8 @@
 
 Задание к уроку 2 (Структуры):
 https://classroom.github.com/a/gYcyCwlx
+Задание к уроку 3 (Классы):
+https://classroom.github.com/a/GXkCW8JR
 
 
 
