@@ -31,7 +31,7 @@ public:
 - _Для получения доступа к приватным данным в классе нужно использовать публичные методы._  
 - _Для получения значения полей и их изменения используются методы, называемые геттерами и сеттерами соответственно._
 
-У тебя есть класс LyceumStudent:
+У тебя есть класс `LyceumStudent`:
 ```cpp
 #include<iostream>
 #include<vector>
@@ -116,4 +116,33 @@ void setName(const string& newName) {
 
 - Метод присваивает полю name переданное значение (`name = newName`).
 
- 
+
+## Безопасный сеттер с проверкой входных значений
+Кажется, что все хорошо, но на самом деле есть небольшая проблема: а что будет, если пользователь решит присвоить себе несуществующую оценку? Представь, что младшеклассники решили побаловаться и поставить себе оценку 10, хотя в их школе 5-балльная шкала. Или вообще решили поиздеваться над своим другом и поставить ему -5.  
+Нам нужно изменить сеттер `setMarks`, добавив в него проверку на то, что оценка находится в нужном нам диапазоне, например, от 1 до 5. 
+
+```cpp
+void setMarks(const unordered_map<string, vector<int>>& newMarks) {
+    bool isValid = true;
+
+    for (const std::pair<const std::string, std::vector<int>>& subjectEntry : newMarks) {
+        const string& subject = subjectEntry.first;
+        const vector<int>& grades = subjectEntry.second;
+
+        for (int mark : grades) {
+            if (mark < 1 || mark > 5) {
+                cout << "Ошибка: оценка " << mark << " по предмету '" 
+                     << subject << "' недопустима!\n";
+                isValid = false;
+                break;
+            }
+        }
+        if (!isValid) break;
+    }
+
+    if (isValid) {
+        marks = newMarks;
+    }
+}
+```
+
