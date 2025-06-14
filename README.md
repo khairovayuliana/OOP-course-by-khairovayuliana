@@ -28,6 +28,9 @@ https://classroom.github.com/a/z7lHMgR7
 Задание к уроку 5:  
 https://classroom.github.com/a/8jSI4Iox  
 
+Задание к уроку 6:   
+https://classroom.github.com/a/LOQeD3vH
+
 
 
 
