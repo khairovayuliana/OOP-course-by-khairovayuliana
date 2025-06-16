@@ -31,6 +31,8 @@ https://classroom.github.com/a/8jSI4Iox
 Задание к уроку 6:   
 https://classroom.github.com/a/LOQeD3vH
 
+Задание к уроку 7:
+https://classroom.github.com/a/YuQsU7p_
 
 
 
