@@ -34,6 +34,8 @@ https://classroom.github.com/a/LOQeD3vH
 Задание к уроку 7:  
 [https://classroom.github.com/a/YuQsU7p_](https://classroom.github.com/a/YuQsU7p_)
 
+Задание к уроку 8:  
+https://classroom.github.com/a/mH86Vnp_
 
 
 
