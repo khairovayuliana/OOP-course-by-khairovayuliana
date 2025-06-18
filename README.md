@@ -38,6 +38,6 @@ https://classroom.github.com/a/LOQeD3vH
 [https://classroom.github.com/a/mH86Vnp_
 ](https://classroom.github.com/a/mH86Vnp_)
 
-Финальное задание:  
+## Финальное задание:  
 [https://classroom.github.com/a/GRu-SXmL](https://classroom.github.com/a/GRu-SXmL)
 
