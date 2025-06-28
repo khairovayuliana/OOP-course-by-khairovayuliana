@@ -133,16 +133,12 @@ void setMarks(const unordered_map<string, vector<int>>& newMarks) {
             if (mark < 1 || mark > 5) {
                 cout << "Ошибка: оценка " << mark << " по предмету '" 
                      << subject << "' недопустима!\n";
-                isValid = false;
-                break;
+                return;
             }
         }
-        if (!isValid) break;
     }
 
-    if (isValid) {
-        marks = newMarks;
-    }
+    marks = newMarks;
 }
 ```
 
