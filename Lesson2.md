@@ -42,9 +42,9 @@ int main() {
 ```cpp
 struct Point {
 
-    double x;
+    double x = 0.0;
 
-    double y;
+    double y = 0.0;
 
 
 };
