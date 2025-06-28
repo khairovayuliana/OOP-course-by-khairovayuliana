@@ -36,7 +36,8 @@
 - __Важно!__ Без этого задание не будет считаться выполненным верно  
 Дальше тебе осталось только закоммитить свои изменения на гитхаб. Для этого:
 - `git config --global user.email "you@example.com"`
-- `git config --global user.name "Your Name"`
+- `git config --global user.name "Your Name"`  
+Предыдущие две строки выполняются **один раз**, в дальнейшем повторять эти действия не нужно.  
 - выполни команду `git add .`
 - `git commit -m "напиши здесь в кавычках что за изменения ты сделал"` ну или просто `git commit -m "solution to task1"`
 - `git push`
