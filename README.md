@@ -23,7 +23,7 @@ https://classroom.github.com/a/gYcyCwlx
 https://classroom.github.com/a/GXkCW8JR  
 
 Задание к уроку 4:  
-https://classroom.github.com/a/z7lHMgR7  
+[https://classroom.github.com/a/z7lHMgR7](https://classroom.github.com/a/x-3Hv_91)  
 
 Задание к уроку 5:  
 https://classroom.github.com/a/8jSI4Iox  
