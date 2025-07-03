@@ -39,5 +39,12 @@ https://classroom.github.com/a/LOQeD3vH
 ](https://classroom.github.com/a/mH86Vnp_)
 
 ## Финальное задание:  
-[https://classroom.github.com/a/GRu-SXmL](https://classroom.github.com/a/GRu-SXmL)
+[https://classroom.github.com/a/GRu-SXmL](https://classroom.github.com/a/GRu-SXmL)  
+
+
+
+
+
+#### Буду благодарна за прохождение небольшого опроса для сбора отзывов о курсе!  
+https://forms.gle/3LwNgGUMukN3HMvV9
 
